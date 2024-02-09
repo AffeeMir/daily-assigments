@@ -10,6 +10,6 @@ function sumValidNumbers(arr) {
     return sum;
 }
 
-const mixedArray = [1, 'two', 3, 'four', 5, 'six', true, null, undefined, 10];
+const mixedArray = [1, 'two', 3, 'four', 5, 'six', 10];
 const result = sumValidNumbers(mixedArray);
 console.log("Sum of valid numbers:", result);
